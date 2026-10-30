@@ -32,6 +32,9 @@ const formatCell = (cell) => {
   if (compact === "flyarystan") {
     return <CellWithImage img="/flyarystan.png" cell={cell} />;
   }
+  if (compact === "vietjetqazaqstan") {
+    return <CellWithImage img="/Vietjet Qazaqstan.jpeg" cell={cell} />;
+  }
   if (
     compact === "hisky" ||
     cell.trim() === "Южное небо" ||
